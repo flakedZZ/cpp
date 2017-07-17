@@ -1,0 +1,15 @@
+﻿  Source.cpp
+c:\users\administrator\documents\visual studio 2017\projects\验证键盘消息\验证键盘消息\source.cpp(8): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+c:\users\administrator\documents\visual studio 2017\projects\验证键盘消息\验证键盘消息\source.cpp(9): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+c:\users\administrator\documents\visual studio 2017\projects\验证键盘消息\验证键盘消息\source.cpp(10): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+c:\users\administrator\documents\visual studio 2017\projects\验证键盘消息\验证键盘消息\source.cpp(28): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _cprintf. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(471): note: 参见“cprintf”的声明
+c:\users\administrator\documents\visual studio 2017\projects\验证键盘消息\验证键盘消息\source.cpp(29): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _cprintf. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(471): note: 参见“cprintf”的声明
+c:\users\administrator\documents\visual studio 2017\projects\验证键盘消息\验证键盘消息\source.cpp(32): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _cprintf. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(471): note: 参见“cprintf”的声明
+  验证键盘消息.vcxproj -> c:\users\administrator\documents\visual studio 2017\Projects\验证键盘消息\Debug\验证键盘消息.exe
+  验证键盘消息.vcxproj -> c:\users\administrator\documents\visual studio 2017\Projects\验证键盘消息\Debug\验证键盘消息.pdb (Partial PDB)
