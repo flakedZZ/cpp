@@ -1,3 +1,5 @@
+/*auther:flakedzz*/
+
 #include <conio.h>
 #include <windows.h>
 #include<iostream>
@@ -5,24 +7,24 @@ int main() {
 	int k;
 
 	while (true) {
-		if (kbhit()) {//kbhit C++º¯Êı ÓÃÓÚ·Ç×èÈûÏìÓ¦¼üÅÌÊÂ¼ş
+		if (kbhit()) {//kbhit C++å‡½æ•° ç”¨äºéé˜»å¡å“åº”é”®ç›˜äº‹ä»¶
 			k = getch();
 			if (0 == k || 0xE0 == k) k = k << 8 | getch();
-			if (27 == k) break;//°´Esc¼üÍË³ö
+			if (27 == k) break;//æŒ‰Escé”®é€€å‡º
 			/*if (57416 == k)
-				std::cout << "ÉÏ·½Ïò¼ü" << std::endl;*/
+				std::cout << "ä¸Šæ–¹å‘é”®" << std::endl;*/
 			switch (k) {
 			case 57416:
-				std::cout << "ÉÏ·½Ïò¼ü" << std::endl;
+				std::cout << "ä¸Šæ–¹å‘é”®" << std::endl;
 				break;
 			case 57424:
-				std::cout << "ÏÂ·½Ïò¼ü" << std::endl;
+				std::cout << "ä¸‹æ–¹å‘é”®" << std::endl;
 				break;
 			case 57419:
-				std::cout << "×ó·½Ïò¼ü" << std::endl;
+				std::cout << "å·¦æ–¹å‘é”®" << std::endl;
 				break;
 			case 57421:
-				std::cout << "ÓÒ·½Ïò¼ü" << std::endl;
+				std::cout << "å³æ–¹å‘é”®" << std::endl;
 				break;
 			}
 			cprintf("%d", k);
